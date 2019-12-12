@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html { 
+    font-size: 10px;
+}
+body {
+    font-family: 'Roboto Slab', serif;
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+    ul {
+        list-style: none;
+    }
+    .container {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+}
+header {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://s3.amazonaws.com/buuqit-dev/website_data/header_images/000/002/553/default/20934909_2367023616856909_8634915187266122222_o.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+nav {
+    border-bottom: 1px solid #fff;
+
+    .header-nav {
+        height: 9rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h3 {
+            font-size: 2.6rem;
+        }
+        .header-menu {
+            display: flex;
+            font-size: 1.8rem;
+            // font-weight: 400;
+            a {
+                color: #fff;
+                display: block;
+                padding-left: 3rem;
+            }
+        }
+    }
+}
+#cta {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 80vh; 
+    width: 100vw;
+
+ 
+    .cta-wrapper {
+        & > * {
+            margin-bottom: 1.5rem;
+        }
+        h1 {
+            font-size: 4.8rem;
+        }
+        h4 {
+            font-size: 3.0rem;
+        }
+        button {
+            display: block;
+            width: 35rem;
+            background-color: #4893cb;
+            border: none;
+            padding: 1rem 1.5rem;
+            a {
+                color: #fff;
+                font-size: 2.3rem;
+            }
+        }
+    }
+}
