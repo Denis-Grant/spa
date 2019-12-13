@@ -90,7 +90,7 @@ nav {
 .suites-wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 60px;
+    // grid-column-gap: 60px;
     font-family: Helvetica, Arial;
 
    
@@ -98,7 +98,7 @@ nav {
 .right-wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 16px;
+    // grid-gap: 16px;
 }
 .left-wrapper {
     h2 {
@@ -161,9 +161,9 @@ nav {
    
 }
 img {
-    border: 2px solid red;
-    object-fit: cover;
-        width: 100%;
-        max-height: 100%;
+    // border: 2px solid red;
+    // object-fit: cover;
+        // width: 100%;
+        // max-height: 100%;
 
 }
